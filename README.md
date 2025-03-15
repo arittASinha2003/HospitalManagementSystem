@@ -33,12 +33,16 @@ Python Django Project.
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/arittASinha2003/HospitalManagementSystem.git
+```
+```bash
 cd HospitalManagementSystem
 ```
 
 ### 2. Creating Virtual Environment (Recommended, but Optional)
 ```bash
 python -m venv myenv
+```
+```bash
 myenv/Scripts/activate
 ```
 
@@ -50,7 +54,11 @@ pip install -r requirements.txt
 ### 4. Run the following commands:
 ```bash
 python manage.py makemigrations
+```
+```bash
 python manage.py migrate
+```
+```bash
 python manage.py runserver
 ```
 
